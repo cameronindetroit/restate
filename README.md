@@ -27,4 +27,7 @@ In the output, you'll find options to open the app in a
 
 ![IMG_88BD543EA5E6-1](https://github.com/user-attachments/assets/a204936a-4a33-47ab-83cb-cf09ac7dd901)
 
+##Google Authentication
+
+![IMG_0940](https://github.com/user-attachments/assets/da7766d0-27fd-4ac8-affd-0834008e80ac)
 
