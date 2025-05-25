@@ -35,6 +35,7 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
 
     const isLoggedIn = !!user;
 
+    // @ts-ignore
     return (
         <GlobalContext.Provider
             value={{
