@@ -12,7 +12,6 @@ const Search = () => {
    const [search, setSearch] = useState(params.query || '');
 
    const debouncedSearch = useDebouncedCallback((text:string) => router.setParams({query: text}),500);
-
    const handleSearch = (text: string) => {
      setSearch(text);
      debouncedSearch(text);
@@ -28,7 +27,7 @@ const Search = () => {
                     onChangeText={handleSearch}
                     placeholder="Enter to search"
                     className="text-sm font-rubik text-black-300 ml-2 flex-1"
-                    placeholderTextColor="text-black-200"
+                    placeholderTextColor="grey"
                 />
             </View>
             <TouchableOpacity>
